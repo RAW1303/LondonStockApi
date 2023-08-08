@@ -18,12 +18,14 @@ In order to run locally you will require Visual Studio with the Azure Functions 
 URL: ./api/trades
 Method: POST
 Example JSON:
-```{
+```
+{
     "stockTicker": "ccccc",
     "price": 1,
     "quantity": 4,
     "brokerId": 1
-}```
+}
+```
 
 This endpoint directly creates a trade on the database.
 
@@ -46,8 +48,10 @@ Method: GET
 URL: ./api/stocks/query
 Method: POST
 Example JSON:
-```[
+```
+[
     "aaaaa",
     "bbbbb"
-]```
+]
+```
 
