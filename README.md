@@ -29,7 +29,7 @@ Example JSON:
 }
 ```
 
-This endpoint directly creates a trade on the database.
+This endpoint directly creates a trade on the database. For the purpose of this exercise 2 brokers have been setup in the database with ids 1 and 2. Other values will fail validation due to no authorised broker with that id.
 
 ### Create trade (high frequency)
 URL: ./api/trades/highfrequency
