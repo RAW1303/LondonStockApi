@@ -16,7 +16,9 @@ In order to run locally you will require Visual Studio with the Azure Functions 
 
 ### Create trade
 URL: ./api/trades
+
 Method: POST
+
 Example JSON:
 ```
 {
@@ -31,22 +33,28 @@ This endpoint directly creates a trade on the database.
 
 ### Create trade (high frequency)
 URL: ./api/trades/highfrequency
+
 Method: POST
+
 Schema:
 
 This endpoint uses an Azure Service Bus Queue to process the trades in batches, reducing the load on databse
 
 ### Get all stocks
 URL: ./api/stocks
+
 Method: GET
 
 ### Get single stock
 URL: ./api/stocks/{ticker}
+
 Method: GET
 
 ### Query stocks
 URL: ./api/stocks/query
+
 Method: POST
+
 Example JSON:
 ```
 [
